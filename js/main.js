@@ -5,6 +5,7 @@
 	// Preloader
 	$(window).on('load', function() {
 		$("#preloader").delay(600).fadeOut();
+		sendPageview('');
 	});
 
 	///////////////////////////
@@ -22,9 +23,11 @@
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top
 		}, 600);
+		sendPageview(hash.replace('#', ''));
 	});
 
 	$('#back-to-top').on('click', function(){
+		sendEvent('back-to-top');
 		$('body,html').animate({
 			scrollTop: 0
 		}, 600);
@@ -34,6 +37,7 @@
 	// Btn nav collapse
 	$('#nav .nav-collapse').on('click', function() {
 		$('#nav').toggleClass('open');
+		sendEvent('hamburger');
 	});
 
 	///////////////////////////
