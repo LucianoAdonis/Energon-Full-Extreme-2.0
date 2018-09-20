@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>HTML Template</title>
+	<title>ENERGON</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
@@ -27,6 +27,9 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -95,9 +98,9 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
 							<h1 class="white-text">JOIN THE FUTURE</h1>
-							<button class="main-btn">GET STARTED</button>
-							<button class="white-btn">DOWNLOAD 0.1.2</button>
-							<button class="white-btn">FIND CUBES</button>
+							<button class="main-btn" onClick="javascript:sendEvent('Get Started');">GET STARTED</button>
+							<button class="white-btn" onClick="javascript:sendEvent('Download!');">DOWNLOAD 0.1.2</button>
+							<button class="white-btn" onClick="javascript:sendEvent('Find Cubes');">FIND CUBES</button>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -857,6 +860,10 @@
 		</div>
 	</div>
 	<!-- /Preloader -->
+	
+	<!-- Analytics by QLIAO -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125651501-1"></script>
+	<script type="text/javascript" src="js/analytics.js"></script>
 
 	<!-- jQuery Plugins -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
