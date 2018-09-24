@@ -3,15 +3,13 @@ It's a cube and part of [ENERGON](https://energon.rocks)
 
 ## Credits
 
-A heartfelt thank you to [@energonrocks](https://github.com/mafintosh) and
-[@Pedro](https://github.com/feross) for all of this.
+A heartfelt thank you to [@energonrocks](https://github.com/energonrocks) team for all of this.
 
 Thank you to the following awesome contributors for noticing errors and sending
 PRs :heart: :
 
 - [@ivolivares](https://github.com/ivolivares)
-- [@Jose](https://github.com/)
-- [@theotheguythatisntjose](https://github.com/)
+- [@tuto](https://github.com/tuto)
 
 Thanks for all of the feedback!
 
